@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AE8CD42630266E00839345 /* Resting Heart Rate App WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 82AE8CD32630266E00839345 /* Resting Heart Rate App WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82AE8CDA2630266E00839345 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CD82630266E00839345 /* Interface.storyboard */; };
+		82AE8CDC2630266E00839345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CDB2630266E00839345 /* Assets.xcassets */; };
+		82AE8CE32630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82AE8CE22630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82AE8CE82630266E00839345 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE8CE72630266E00839345 /* HostingController.swift */; };
+		82AE8CEA2630266E00839345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE8CE92630266E00839345 /* ContentView.swift */; };
+		82AE8CEC2630266E00839345 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE8CEB2630266E00839345 /* ExtensionDelegate.swift */; };
+		82AE8CEE2630266E00839345 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE8CED2630266E00839345 /* ComplicationController.swift */; };
+		82AE8CF02630266F00839345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CEF2630266F00839345 /* Assets.xcassets */; };
+		82AE8CF32630266F00839345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CF22630266F00839345 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AE8CD52630266E00839345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AE8CC92630266D00839345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AE8CD22630266E00839345;
+			remoteInfo = "Resting Heart Rate App WatchKit App";
+		};
+		82AE8CE42630266E00839345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AE8CC92630266D00839345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AE8CE12630266E00839345;
+			remoteInfo = "Resting Heart Rate App WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82AE8CFA2630266F00839345 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82AE8CE32630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AE8CFE2630266F00839345 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				82AE8CD42630266E00839345 /* Resting Heart Rate App WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82AE8CCF2630266D00839345 /* Resting Heart Rate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resting Heart Rate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AE8CD32630266E00839345 /* Resting Heart Rate App WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resting Heart Rate App WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AE8CD92630266E00839345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		82AE8CDB2630266E00839345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AE8CDD2630266E00839345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AE8CE22630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Resting Heart Rate App WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AE8CE72630266E00839345 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		82AE8CE92630266E00839345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82AE8CEB2630266E00839345 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		82AE8CED2630266E00839345 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		82AE8CEF2630266F00839345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AE8CF22630266F00839345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82AE8CF42630266F00839345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AE8CDF2630266E00839345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AE8CC82630266D00839345 = {
+			isa = PBXGroup;
+			children = (
+				82AE8CD72630266E00839345 /* Resting Heart Rate App WatchKit App */,
+				82AE8CE62630266E00839345 /* Resting Heart Rate App WatchKit Extension */,
+				82AE8CD02630266D00839345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AE8CD02630266D00839345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8CCF2630266D00839345 /* Resting Heart Rate App.app */,
+				82AE8CD32630266E00839345 /* Resting Heart Rate App WatchKit App.app */,
+				82AE8CE22630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AE8CD72630266E00839345 /* Resting Heart Rate App WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8CD82630266E00839345 /* Interface.storyboard */,
+				82AE8CDB2630266E00839345 /* Assets.xcassets */,
+				82AE8CDD2630266E00839345 /* Info.plist */,
+			);
+			path = "Resting Heart Rate App WatchKit App";
+			sourceTree = "<group>";
+		};
+		82AE8CE62630266E00839345 /* Resting Heart Rate App WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8CE72630266E00839345 /* HostingController.swift */,
+				82AE8CE92630266E00839345 /* ContentView.swift */,
+				82AE8CEB2630266E00839345 /* ExtensionDelegate.swift */,
+				82AE8CED2630266E00839345 /* ComplicationController.swift */,
+				82AE8CEF2630266F00839345 /* Assets.xcassets */,
+				82AE8CF42630266F00839345 /* Info.plist */,
+				82AE8CF12630266F00839345 /* Preview Content */,
+			);
+			path = "Resting Heart Rate App WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		82AE8CF12630266F00839345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8CF22630266F00839345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AE8CCE2630266D00839345 /* Resting Heart Rate App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AE8CFF2630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App" */;
+			buildPhases = (
+				82AE8CCD2630266D00839345 /* Resources */,
+				82AE8CFE2630266F00839345 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AE8CD62630266E00839345 /* PBXTargetDependency */,
+			);
+			name = "Resting Heart Rate App";
+			productName = "Resting Heart Rate App";
+			productReference = 82AE8CCF2630266D00839345 /* Resting Heart Rate App.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		82AE8CD22630266E00839345 /* Resting Heart Rate App WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AE8CFB2630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App WatchKit App" */;
+			buildPhases = (
+				82AE8CD12630266E00839345 /* Resources */,
+				82AE8CFA2630266F00839345 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AE8CE52630266E00839345 /* PBXTargetDependency */,
+			);
+			name = "Resting Heart Rate App WatchKit App";
+			productName = "Resting Heart Rate App WatchKit App";
+			productReference = 82AE8CD32630266E00839345 /* Resting Heart Rate App WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		82AE8CE12630266E00839345 /* Resting Heart Rate App WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AE8CF72630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App WatchKit Extension" */;
+			buildPhases = (
+				82AE8CDE2630266E00839345 /* Sources */,
+				82AE8CDF2630266E00839345 /* Frameworks */,
+				82AE8CE02630266E00839345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resting Heart Rate App WatchKit Extension";
+			productName = "Resting Heart Rate App WatchKit Extension";
+			productReference = 82AE8CE22630266E00839345 /* Resting Heart Rate App WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AE8CC92630266D00839345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82AE8CCE2630266D00839345 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					82AE8CD22630266E00839345 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					82AE8CE12630266E00839345 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 82AE8CCC2630266D00839345 /* Build configuration list for PBXProject "Resting Heart Rate App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AE8CC82630266D00839345;
+			productRefGroup = 82AE8CD02630266D00839345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AE8CCE2630266D00839345 /* Resting Heart Rate App */,
+				82AE8CD22630266E00839345 /* Resting Heart Rate App WatchKit App */,
+				82AE8CE12630266E00839345 /* Resting Heart Rate App WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AE8CCD2630266D00839345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AE8CD12630266E00839345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AE8CDC2630266E00839345 /* Assets.xcassets in Resources */,
+				82AE8CDA2630266E00839345 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AE8CE02630266E00839345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AE8CF32630266F00839345 /* Preview Assets.xcassets in Resources */,
+				82AE8CF02630266F00839345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AE8CDE2630266E00839345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AE8CEA2630266E00839345 /* ContentView.swift in Sources */,
+				82AE8CEE2630266E00839345 /* ComplicationController.swift in Sources */,
+				82AE8CE82630266E00839345 /* HostingController.swift in Sources */,
+				82AE8CEC2630266E00839345 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AE8CD62630266E00839345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AE8CD22630266E00839345 /* Resting Heart Rate App WatchKit App */;
+			targetProxy = 82AE8CD52630266E00839345 /* PBXContainerItemProxy */;
+		};
+		82AE8CE52630266E00839345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AE8CE12630266E00839345 /* Resting Heart Rate App WatchKit Extension */;
+			targetProxy = 82AE8CE42630266E00839345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AE8CD82630266E00839345 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AE8CD92630266E00839345 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AE8CF52630266F00839345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82AE8CF62630266F00839345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AE8CF82630266F00839345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Resting Heart Rate App WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Resting Heart Rate App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		82AE8CF92630266F00839345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Resting Heart Rate App WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Resting Heart Rate App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		82AE8CFC2630266F00839345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				IBSC_MODULE = Resting_Heart_Rate_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Resting Heart Rate App WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		82AE8CFD2630266F00839345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				IBSC_MODULE = Resting_Heart_Rate_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Resting Heart Rate App WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		82AE8D002630266F00839345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82AE8D012630266F00839345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LC65W424L;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.jaanesen.Resting-Heart-Rate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AE8CCC2630266D00839345 /* Build configuration list for PBXProject "Resting Heart Rate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AE8CF52630266F00839345 /* Debug */,
+				82AE8CF62630266F00839345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AE8CF72630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AE8CF82630266F00839345 /* Debug */,
+				82AE8CF92630266F00839345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AE8CFB2630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AE8CFC2630266F00839345 /* Debug */,
+				82AE8CFD2630266F00839345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AE8CFF2630266F00839345 /* Build configuration list for PBXNativeTarget "Resting Heart Rate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AE8D002630266F00839345 /* Debug */,
+				82AE8D012630266F00839345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AE8CC92630266D00839345 /* Project object */;
+}
