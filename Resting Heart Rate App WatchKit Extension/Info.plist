@@ -32,6 +32,12 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+    <key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+    <string>The app reads resting heart rate data from HealthKit</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>The app reads resting heart rate data from HealthKit</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>The app reads resting heart rate data from HealthKit</string>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>WKWatchOnly</key>

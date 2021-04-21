@@ -17,6 +17,7 @@
 		82AE8CEE2630266E00839345 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE8CED2630266E00839345 /* ComplicationController.swift */; };
 		82AE8CF02630266F00839345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CEF2630266F00839345 /* Assets.xcassets */; };
 		82AE8CF32630266F00839345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AE8CF22630266F00839345 /* Preview Assets.xcassets */; };
+		82AE8D07263027E400839345 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AE8D06263027E400839345 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		82AE8CEF2630266F00839345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AE8CF22630266F00839345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82AE8CF42630266F00839345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AE8D06263027E400839345 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		82AE8D082630280500839345 /* Resting Heart Rate App WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Resting Heart Rate App WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AE8D07263027E400839345 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +98,7 @@
 				82AE8CD72630266E00839345 /* Resting Heart Rate App WatchKit App */,
 				82AE8CE62630266E00839345 /* Resting Heart Rate App WatchKit Extension */,
 				82AE8CD02630266D00839345 /* Products */,
+				82AE8D05263027E400839345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +125,7 @@
 		82AE8CE62630266E00839345 /* Resting Heart Rate App WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				82AE8D082630280500839345 /* Resting Heart Rate App WatchKit Extension.entitlements */,
 				82AE8CE72630266E00839345 /* HostingController.swift */,
 				82AE8CE92630266E00839345 /* ContentView.swift */,
 				82AE8CEB2630266E00839345 /* ExtensionDelegate.swift */,
@@ -137,6 +143,14 @@
 				82AE8CF22630266F00839345 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82AE8D05263027E400839345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AE8D06263027E400839345 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Resting Heart Rate App WatchKit Extension/Resting Heart Rate App WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Resting Heart Rate App WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LC65W424L;
@@ -442,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Resting Heart Rate App WatchKit Extension/Resting Heart Rate App WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Resting Heart Rate App WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 2LC65W424L;
